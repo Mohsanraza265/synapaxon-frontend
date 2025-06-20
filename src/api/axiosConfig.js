@@ -1,8 +1,8 @@
 // src/api/axiosConfig.js
 import axios from 'axios';
-
+// baseURL: import.meta.env.VITE_API_URL || 'https://synapaxon-backend.onrender.com',
 const instance = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || 'https://synapaxon-backend.onrender.com',
+  baseURL: import.meta.env.VITE_API_URL || 'https://synapaxon-backend-sigma.vercel.app',
   timeout: 10000,
    withCredentials: true,
 });

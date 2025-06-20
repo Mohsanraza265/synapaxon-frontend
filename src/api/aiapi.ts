@@ -6,6 +6,7 @@ import axios from 'axios';
 // In production, this will be the URL where your FastAPI AI service is deployed.
 // It's good practice to use environment variables for this.
 const AI_BACKEND_URL = 'https://oral-ivy-ujjwal0704-4b62219b.koyeb.app/';
+// const AI_BACKEND_URL = 'http://localhost:3000/';
 
 const aiApiClient = axios.create({
   baseURL: AI_BACKEND_URL,
